@@ -44,8 +44,12 @@ public class PlayerMovement : MonoBehaviour
         Movement();
      
         //***** UI CODE *****
-        slider.value = stamina;
-        slider.maxValue = maxStamina;
+        if(slider != null)
+        {
+            slider.value = stamina;
+            slider.maxValue = maxStamina;
+        }
+        
         
     }
 
