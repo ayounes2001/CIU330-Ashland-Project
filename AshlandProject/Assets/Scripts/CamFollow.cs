@@ -41,10 +41,12 @@ public class CamFollow : MonoBehaviour
 
     public void CamSettings()
     {
+        yaw += Input.GetAxis("HorizontalR") * mouseSensitivity;
         yaw += Input.GetAxis("Mouse X") * mouseSensitivity;
-        
+
         //hey anothony sorry I'm just testing with pitch input off for now back u can change it back if u need to
-        pitch -= Input.GetAxis("Mouse Y") * mouseSensitivity*2;
+        pitch -= Input.GetAxis("VerticalR") * mouseSensitivity*2;
+        pitch -= Input.GetAxis("Mouse Y") * mouseSensitivity * 2;
         //making sure the we cant go pasted a certain height on our camera.
         pitch = Mathf.Clamp(pitch, pitchMinMax.x, pitchMinMax.y);
    
