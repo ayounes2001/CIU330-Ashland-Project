@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         //Changing inbetween normal speed and runningSpeed and actually moving the player
-        bool running = Input.GetKey(KeyCode.LeftShift);
+        bool running = Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Sprint");
         float targetSpeed = ((!running) ? walkSpeed : runSpeed) * inputDirection.magnitude;
         currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
 
