@@ -10,7 +10,7 @@ namespace AnthonyY
     {
 
         public Transform FollowPos = null;
-        public float force = 0.1f;
+        public float force = 10f;
         private LineOfSight lineOfSight;
         public bool playerfollow;
         

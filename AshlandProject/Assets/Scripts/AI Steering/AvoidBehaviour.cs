@@ -6,7 +6,7 @@ namespace AnthonyY
 	{
 		public float      distance = 3f;
 		public float      turnSpeed = 2f;
-		public float      direction = 1f;
+		public float      direction = 5f;
 		RaycastHit        hit;
 		private bool      raycast;
 		private Transform t;
