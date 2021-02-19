@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.685
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.057205103, g: 0.35244146, b: 0.5644636, a: 0.685}
+  m_IndirectSpecularColor: {r: 0.0657475, g: 0.36099222, b: 0.5730146, a: 0.685}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -270,6 +270,20 @@ MonoBehaviour:
   playerAnimator: {fileID: 548770880}
   isGrounded: 0
   jumpForce: 5
+--- !u!114 &548770874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548770870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b754002669585114b948fabc5304c628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepEvent: 
+  materialParameter: 
 --- !u!54 &548770879 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1893428083, guid: 9f5dcddd0d656cf42b5c4c4f43da21c6, type: 3}
