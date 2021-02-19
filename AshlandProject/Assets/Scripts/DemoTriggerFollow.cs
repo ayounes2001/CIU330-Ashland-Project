@@ -11,8 +11,9 @@ namespace AnthonyY
         [Header("AI scripts")]
         public TurnTowardsBehaviour aiScript;
         public NPCAVOID avoidScript;
-        public AvoidBehaviour avoidBehaviourScript;
-        
+        public AvoidBehaviour leftFeeler;
+        public AvoidBehaviour rightFeeler;
+
         public event Action playerMetEvent;
         private void OnTriggerEnter(Collider other)
         {
@@ -23,8 +24,13 @@ namespace AnthonyY
                 avoidScript = GetComponent<NPCAVOID>();
                 avoidScript.enabled = true;
 
-                avoidBehaviourScript = GetComponent<AvoidBehaviour>();
-                avoidBehaviourScript.enabled = true;
+                leftFeeler = GetComponent<AvoidBehaviour>();
+                leftFeeler.enabled = true;
+
+            rightFeeler = GetComponent<AvoidBehaviour>();
+            rightFeeler.enabled = true;
+
+
 
         }
      

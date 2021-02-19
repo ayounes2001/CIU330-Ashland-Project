@@ -14,9 +14,15 @@ namespace AnthonyY
         public float speed;
         public float originalSpeed;
 
+        public float jumpForce;
+
 
         public int damageAmount = 20;
-		
+       
+        public float distToGround;
+        
+        public bool isGrounded;
+
         void Start()
         {
             rb = GetComponent<Rigidbody>();
@@ -27,7 +33,8 @@ namespace AnthonyY
         {
             
             rb.AddRelativeForce(0, 0, speed);
-            
+
+                       
         }
         //TODO
         //HealthBased code in here
@@ -35,6 +42,22 @@ namespace AnthonyY
         {
             // ReSharper disable once Unity.NoNullPropagation
             other.gameObject?.GetComponent<PlayerMovement>()?.GetComponent<HealthComponent>()?.TakeHp(damageAmount);
+        }
+        private void OnTriggerEnter(Collider other)
+        {
+            if(other.CompareTag("Log"))
+            {
+                if (!Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f))
+                {
+                    rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+                    isGrounded = false;
+                
+                }
+                else
+                {
+                    isGrounded = true;
+                }
+            }
         }
 
         void Death()

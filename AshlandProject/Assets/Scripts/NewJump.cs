@@ -7,17 +7,17 @@ public class NewJump : MonoBehaviour
 {
     public Rigidbody rb;
     public Animator playerAnimator;
-    public bool isGrounded;
-    
-
+   public bool isGrounded;
+    public LayerMask ground;
     public float jumpForce;
 
- 
+    public float distToGround;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        distToGround = GetComponent<Collider>().bounds.extents.y;
     }
   
 
@@ -25,15 +25,26 @@ public class NewJump : MonoBehaviour
     void FixedUpdate()
     {
         Jump();
+        
     }
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && isGrounded == true)
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
-            //changing to jump animation
-            playerAnimator.SetInteger("CurrentAnimation", 2);
+
+            if (!Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f))
+            {
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+                isGrounded = false;
+                //changing to jump animation
+                playerAnimator.SetInteger("CurrentAnimation", 2);
+                Debug.DrawLine(transform.position, -Vector3.up);
+            }
+            else
+            {
+                isGrounded = true;
+            }
+           
         }
         //checking if player is falling and chaning animation
         if (rb.velocity.y < -1) { playerAnimator.SetInteger("CurrentAnimation", 4); }
@@ -41,7 +52,15 @@ public class NewJump : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {       
-            isGrounded = true;       
+
+       
+            isGrounded = true;
+      
+           
+   }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(transform.position, distToGround);
     }
-   
+
 }

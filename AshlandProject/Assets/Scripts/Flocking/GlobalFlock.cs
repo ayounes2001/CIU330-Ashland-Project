@@ -6,7 +6,7 @@ using UnityEngine;
 public class GlobalFlock : MonoBehaviour
 {
     public GameObject birdPrefab;
-    public GameObject goalPrefab;
+    public Transform goalPrefab;
     public int randomMovement = 1000;
 
     public static int tankSize = 5;
