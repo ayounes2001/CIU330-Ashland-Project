@@ -12,6 +12,8 @@ namespace AnthonyY
         // Start is called before the first frame update
         private Rigidbody rb;
         public float speed;
+        public float originalSpeed;
+
 
         public int damageAmount = 20;
 		
