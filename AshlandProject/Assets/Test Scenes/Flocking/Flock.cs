@@ -42,14 +42,12 @@ public class Flock : MonoBehaviour
 
         for(int i = 0; i < startingCount; i++)
         {
-            //Creating a prefab in a position where the agents aren't bunched up like sardines
+            var insideUnitCircle = Random.insideUnitCircle * (startingCount * AgentDensity);
+            //I need to spawn the prefabs at a specific location.
+            FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(insideUnitCircle.x, 0, insideUnitCircle.y),
+                Quaternion.identity, transform);
+            newAgent.transform.LookAt(transform.forward);
 
-            FlockAgent newAgent = Instantiate(
-                 agentPrefab,
-                 Random.insideUnitCircle * startingCount * AgentDensity,
-                 Quaternion.Euler(Vector3.forward * Random.Range(0f, 360f)),
-                 transform
-                 );
 
             newAgent.name = "Agent" + i;
             newAgent.Intialize(this);
@@ -97,4 +95,6 @@ public class Flock : MonoBehaviour
         }
         return context;
     }
+
+    
 }
