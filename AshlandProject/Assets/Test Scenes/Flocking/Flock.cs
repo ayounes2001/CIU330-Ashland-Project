@@ -45,11 +45,10 @@ public class Flock : MonoBehaviour
             var insideUnitCircle = Random.insideUnitCircle * (startingCount * AgentDensity);
             //I need to spawn the prefabs at a specific location.
             FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(insideUnitCircle.x, 0, insideUnitCircle.y),
-                Quaternion.identity, transform);
-            newAgent.transform.LookAt(transform.forward);
+                Quaternion.identity);
+         
 
-
-            newAgent.name = "Agent" + i;
+            newAgent.name = "Bird" + i;
             newAgent.Intialize(this);
             agents.Add(newAgent);
         }
@@ -66,7 +65,10 @@ public class Flock : MonoBehaviour
             // agent.GetComponentInChildren<Renderer>().material.color = Color.Lerp(Color.white, Color.red, context.Count / 6f);
 
 
-            Vector3 move = behaviour.CalculateMove(agent, context, this); //getting the specfic objects position
+            Vector3 move = behaviour.CalculateMove(agent, context, this);
+            //getting the specfic objects position
+            
+
 
             //Actually moving the flock
             move *= driveFactor;
@@ -96,5 +98,8 @@ public class Flock : MonoBehaviour
         return context;
     }
 
-    
+    private void OnDrawGizmos()
+    {
+        
+    }
 }
