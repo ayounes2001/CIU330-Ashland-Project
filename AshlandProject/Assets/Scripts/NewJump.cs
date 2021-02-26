@@ -8,7 +8,6 @@ public class NewJump : MonoBehaviour
     public Rigidbody rb;
     public Animator playerAnimator;
    public bool isGrounded;
-    public LayerMask ground;
     public float jumpForce;
 
     public float distToGround;
@@ -29,7 +28,7 @@ public class NewJump : MonoBehaviour
     }
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && isGrounded == true)
+        if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
 
             if (!Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f))
