@@ -129,6 +129,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 5529670310020593423}
   isGrounded: 0
   jumpForce: 5
+  distToGround: 0
 --- !u!114 &1730214532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49225689e81377e4fb2ff25fcc3c262f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcNewSpeed: 20
 --- !u!1001 &2150398936543496862
 PrefabInstance:
   m_ObjectHideFlags: 0
