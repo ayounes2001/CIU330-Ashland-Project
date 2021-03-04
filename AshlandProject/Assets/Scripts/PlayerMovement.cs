@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Player Movement Smoothing")]
     [SerializeField] private float turnSmoothTime = 0.2f;
     private float turnSmoothVelocity;
-    public float speedSmoothTime = 0.1f;
+    public float speedSmoothTime = 0.01f;
     private float speedSmoothVelocity;
 
     [Header ("UI and Camera")]
@@ -107,19 +107,11 @@ public class PlayerMovement : MonoBehaviour
         else if(stamina < maxStamina)
         {
             stamina += Time.deltaTime;
-          //  Debug.Log("Regen Stam");
-           // runSpeed = 500;
-            // currentSpeed = 15f;
         }
     }
 
     private void OnCollisionEnter(Collision other)
     {
         
-    }
-
-    public void Death(HealthComponent health)
-    {
-        Destroy(gameObject);
     }
 }

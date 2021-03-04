@@ -21,18 +21,19 @@ public class NewJump : MonoBehaviour
   
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Jump();
-        
+        Debug.DrawRay(transform.position, Vector3.down, Color.red);
     }
     void Jump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
 
-            if (!Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f))
+            if (!Physics.Raycast(transform.position, Vector3.down, distToGround + 0.1f))
             {
+               
                 rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
                 isGrounded = false;
                 //changing to jump animation
