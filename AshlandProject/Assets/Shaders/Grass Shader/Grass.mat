@@ -36,7 +36,7 @@ Material:
     - _MinHeight: 15.48
     - _ShadowPower: 0.35
     - _TPower: 0.02
-    - _WindStrength: 1
+    - _WindStrength: 0.5
     m_Colors:
     - _Darker: {r: 0.65882355, g: 0, b: 0.15476425, a: 1}
     - _Tint: {r: 0.89972353, g: 1, b: 0, a: 1}

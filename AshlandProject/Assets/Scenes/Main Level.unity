@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.685
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06241888, g: 0.3576482, b: 0.5696709, a: 0.685}
+  m_IndirectSpecularColor: {r: 0.4812027, g: 0.061741117, b: 0.11958451, a: 0.685}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -269,7 +269,7 @@ MonoBehaviour:
   rb: {fileID: 548770879}
   playerAnimator: {fileID: 548770880}
   isGrounded: 0
-  jumpForce: 5
+  jumpForce: 10
   distToGround: 0
 --- !u!114 &548770874
 MonoBehaviour:
@@ -547,7 +547,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-24558
+  m_Name: pb_Mesh35354
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -79249,11 +79249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1dceafbbac0f2140b7ae6d633e51ad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockCursor: 1
-  mouseSensitivity: 3
+  lockCursor: 0
+  mouseSensitivity: 1.5
   target: {fileID: 833733949}
   distanceFromTarget: 12.52
-  pitchMinMax: {x: 0, y: 100}
+  pitchMinMax: {x: 0, y: 30}
   rotationSmoothTime: 0.12
 --- !u!114 &1654235632
 MonoBehaviour:

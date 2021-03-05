@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 inputDirection = input.normalized;
 
         //Basing our Input on the direction of the camera and smoothing it out
-        if (inputDirection != Vector2.zero)
+        if (inputDirection != Vector2.zero && gameObject.GetComponent<NewJump>().isGrounded == true)
         {
            // print("moving");
             float targetRotation =
@@ -85,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = transform.forward * (currentSpeed * Time.deltaTime);
            
         }
-        if(currentSpeed < 2)
+        if(currentSpeed < 2 || gameObject.GetComponent<NewJump>().isGrounded == false)
         {
             running = false;
         }
