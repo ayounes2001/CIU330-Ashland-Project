@@ -371,6 +371,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 542160274}
+    - target: {fileID: 8577644748738904634, guid: eb7de3dbdbdb00f4ba8dfbb99e1bc030, type: 3}
+      propertyPath: lockCursor
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8577644748738904639, guid: eb7de3dbdbdb00f4ba8dfbb99e1bc030, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -384,6 +388,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796283223, guid: dc5e5181000259c46824847e3aaec73a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796283223, guid: dc5e5181000259c46824847e3aaec73a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2801516859828570703, guid: dc5e5181000259c46824847e3aaec73a, type: 3}
       propertyPath: m_Name
       value: Dingo
