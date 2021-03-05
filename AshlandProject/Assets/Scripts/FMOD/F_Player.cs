@@ -5,15 +5,11 @@ using FMODUnity;
 using FMOD.Studio;
 public class F_Player : MonoBehaviour
 {
-    [SerializeField]
-    private string footstepEvent;
-    [SerializeField]
-    private string materialParameter;
+    [SerializeField] F_FmodEvents footstepEvents;
     
     public void DingoStep()
     {
-        EventInstance dingoFootstep = RuntimeManager.CreateInstance(footstepEvent);
-        dingoFootstep.setParameterByName(materialParameter, 1);
+        EventInstance dingoFootstep = RuntimeManager.CreateInstance(footstepEvents.eventPath);
         dingoFootstep.start();
         dingoFootstep.release();
     }

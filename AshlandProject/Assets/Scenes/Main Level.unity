@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.685
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4812027, g: 0.061741117, b: 0.11958451, a: 0.685}
+  m_IndirectSpecularColor: {r: 0.48695588, g: 0.06746584, b: 0.12533638, a: 0.685}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -283,8 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b754002669585114b948fabc5304c628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footstepEvent: event:/Character/DingoWalk
-  materialParameter: 
+  footstepEvents: {fileID: 11400000, guid: a3c781b853dd75044b36de42fda3e7fe, type: 2}
 --- !u!54 &548770879 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1893428083, guid: 9f5dcddd0d656cf42b5c4c4f43da21c6, type: 3}
@@ -547,7 +546,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35354
+  m_Name: pb_Mesh51418
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -79361,6 +79360,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 80.456, y: 0, z: 0}
+--- !u!1 &2075957450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075957452}
+  - component: {fileID: 2075957451}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2075957451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075957450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3204526a95063034a9e10d3162447421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: {fileID: 11400000, guid: 79b361dff0b684f469b75ee11362b4b3, type: 2}
+--- !u!4 &2075957452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075957450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121712791649602627
 GameObject:
   m_ObjectHideFlags: 0
