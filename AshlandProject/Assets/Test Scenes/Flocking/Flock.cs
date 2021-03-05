@@ -44,8 +44,8 @@ public class Flock : MonoBehaviour
         {
             var insideUnitCircle = Random.insideUnitCircle * (startingCount * AgentDensity);
             //I need to spawn the prefabs at a specific location.
-            FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(insideUnitCircle.x, 0, insideUnitCircle.y),
-                Quaternion.identity);
+            FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(insideUnitCircle.x,insideUnitCircle.y),
+             transform.rotation);
          
 
             newAgent.name = "Bird" + i;

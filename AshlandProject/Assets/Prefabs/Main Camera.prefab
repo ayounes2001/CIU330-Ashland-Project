@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1dceafbbac0f2140b7ae6d633e51ad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockCursor: 1
+  lockCursor: 0
   mouseSensitivity: 3
   target: {fileID: 0}
   distanceFromTarget: 15

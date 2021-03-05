@@ -65,7 +65,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2279579745063071401, guid: a5313c62bbab8184f9af4b5b6ca2779c, type: 3}
       propertyPath: m_Name
-      value: Lizard Flock Agent
+      value: Lizard Flock Agent Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816805033001096131, guid: a5313c62bbab8184f9af4b5b6ca2779c, type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7816805033001096133, guid: a5313c62bbab8184f9af4b5b6ca2779c, type: 3}
