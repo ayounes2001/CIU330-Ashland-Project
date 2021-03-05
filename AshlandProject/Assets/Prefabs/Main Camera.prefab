@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8577644748738904635}
   - component: {fileID: 8577644748738904634}
   - component: {fileID: 8577644748738904613}
-  - component: {fileID: 7792143890744702677}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -133,9 +132,9 @@ MonoBehaviour:
   lockCursor: 1
   mouseSensitivity: 3
   target: {fileID: 0}
-  distanceFromTarget: 12.52
-  pitchMinMax: {x: 0, y: 100}
-  rotationSmoothTime: 0.12
+  distanceFromTarget: 15
+  pitchMinMax: {x: 0, y: 20}
+  rotationSmoothTime: 0.05
 --- !u!114 &8577644748738904613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,20 +149,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 0}
   ListenerNumber: -1
---- !u!114 &7792143890744702677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8577644748738904639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: e30a266a0fc6477438dc55b1c4e5305d, type: 2}
