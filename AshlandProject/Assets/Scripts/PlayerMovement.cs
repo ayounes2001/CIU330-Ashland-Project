@@ -41,17 +41,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Movement();
-     
+           
         //***** UI CODE *****
         if(slider != null)
         {
             slider.value = stamina;
             slider.maxValue = maxStamina;
         }
-        
-        
+        Movement();
+
+
     }
+   
 
     private void Movement()
     {
@@ -82,6 +83,11 @@ public class PlayerMovement : MonoBehaviour
         if (gameObject.GetComponent<NewJump>().isGrounded == true)
         {
             rb.velocity = transform.forward * (currentSpeed * Time.deltaTime);
+           
+        }
+        if(currentSpeed < 2)
+        {
+            running = false;
         }
        
         

@@ -4,15 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
+
+
 public class MenuManager : MonoBehaviour
 {
-
+    public void Update()
+    {
+       
+    }
     public void ExitGame()
     {
         Application.Quit();
     }
     public void LoadGame()
     {
+
         SceneManager.LoadScene(2);
     }
 }
