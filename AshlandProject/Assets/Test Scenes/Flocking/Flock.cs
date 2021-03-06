@@ -10,7 +10,7 @@ public class Flock : MonoBehaviour
 
     [Range(10, 500)]
     public int startingCount = 20; //our list of birds
-    const float AgentDensity = 0.08f; //area our birds will spawn
+    const float AgentDensity = 0.1f; //area our birds will spawn
 
     [Range(1f, 100f)]
     public float driveFactor = 10f; //speed of the agent
@@ -42,13 +42,14 @@ public class Flock : MonoBehaviour
 
         for(int i = 0; i < startingCount; i++)
         {
-            var insideUnitCircle = Random.insideUnitCircle * (startingCount * AgentDensity);
+            Vector2 spawnArea = Random.insideUnitCircle;
             //I need to spawn the prefabs at a specific location.
-            FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(insideUnitCircle.x,insideUnitCircle.y),
-             transform.rotation);
-         
+            FlockAgent newAgent = Instantiate(agentPrefab, transform.position + new Vector3(spawnArea.x, 0, spawnArea.y) * startingCount * AgentDensity, Quaternion.Euler(Vector3.forward), transform);
 
-            newAgent.name = "Bird" + i;
+            //FlockAgent newAgent = Instantiate(agentPrefab, Random.insideUnitCircle * startingCount * AgentDensity, Quaternion.Euler(Vector3.forward * Random.Range(0, 360f)), transform);
+
+
+            newAgent.name = "Agent" + i;
             newAgent.Intialize(this);
             agents.Add(newAgent);
         }

@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 221790007871096832}
   - component: {fileID: 221790007871096895}
   - component: {fileID: 221790007871096833}
+  - component: {fileID: 9095780930675993322}
   m_Layer: 0
   m_Name: Bird 1
   m_TagString: Untagged
@@ -172,8 +173,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 13.569396, y: 13.486375, z: 14.055862}
-  m_Center: {x: -0.7828195, y: 4.084517, z: -0.015924644}
+  m_Size: {x: 2.9087822, y: 2.3506165, z: 11.253721}
+  m_Center: {x: 0.6696756, y: 0.2524414, z: -0.8785958}
 --- !u!95 &221790007871096895
 Animator:
   serializedVersion: 3
@@ -205,6 +206,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a19b42fd5c240343bbdc914045e409d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &9095780930675993322
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140146312684444542}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 10
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1794723858585892500
 GameObject:
   m_ObjectHideFlags: 0

@@ -43,9 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d9fc55b49f5631449cf49d447607096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentPrefab: {fileID: 7485783280854166937, guid: de39bb6a19f81084ba5ed94d679496e5, type: 3}
+  agentPrefab: {fileID: 6123332854278735688, guid: a8d7d13eab8a37f4381d8fb20ba1f4bf, type: 3}
   behaviour: {fileID: 11400000, guid: 449ebb39b6a4fd14e9d80e54ac9b662f, type: 2}
-  startingCount: 50
+  startingCount: 500
   driveFactor: 10
   maxSpeed: 5
   neighbourRadius: 1.5
