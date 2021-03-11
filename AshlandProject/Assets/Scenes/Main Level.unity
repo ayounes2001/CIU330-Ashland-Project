@@ -800,6 +800,10 @@ PrefabInstance:
       propertyPath: spawnDelay
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4251792045219931796, guid: bfbb2274788f8d649bdf284cd4760576, type: 3}
+      propertyPath: secondsafterDestroy
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4251792045219931797, guid: bfbb2274788f8d649bdf284cd4760576, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

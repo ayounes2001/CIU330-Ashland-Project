@@ -16,6 +16,8 @@ public class TimedSpawnTest : MonoBehaviour
 
     public LayerMask grassMask;
 
+    public float secondsafterDestroy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,24 +29,28 @@ public void SpawnObject()
     {
         Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
 
-        Instantiate(spawnee, pos, Quaternion.identity);
+        GameObject fireClone = (GameObject) Instantiate(spawnee, pos, Quaternion.identity);
 
-        
+        Destroy(fireClone, secondsafterDestroy);
 
-        if(stopSpawning)
+
+
+
+        if (stopSpawning)
         {
             CancelInvoke("SpawnObject");
         }
 
-        Destroy(spawnee, 10f);
+       
     }
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == grassMask)
+
+        if (other.gameObject.layer == grassMask)
         {
             Grass.SetColor("_Tint", Color.black);
             Grass.SetColor("Darker", Color.black);
-           
+
         }
     }
 
