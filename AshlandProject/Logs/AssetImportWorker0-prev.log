@@ -1,0 +1,204 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2021.2.0a8 (05e6d22b19f7) revision 386770'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.719; Version 1909; 64bit' Language: 'en' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0a8\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/SAE/Documents/GitHub/CIU330-Ashland-Project/AshlandProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63447
+Successfully changed project path to: C:/Users/SAE/Documents/GitHub/CIU330-Ashland-Project/AshlandProject
+C:/Users/SAE/Documents/GitHub/CIU330-Ashland-Project/AshlandProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 256.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0a8 (05e6d22b19f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0a8/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SAE/Documents/GitHub/CIU330-Ashland-Project/AshlandProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   26.21.14.3200
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a8/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a8/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0a8/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0a8/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005205 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.643 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Mono: successfully reloaded assembly
+- Completed reload, in  3.952 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 226 unused Assets to reduce memory usage. Loaded Objects now: 4234.
+Total: 7.246900 ms (FindLiveObjects: 0.473300 ms CreateObjectMapping: 0.254300 ms MarkObjects: 6.079900 ms  DeleteObjects: 0.438000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GrassTest.png
+  artifactKey: Guid(a8d4390397caef24d86103560f046fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassTest.png using Guid(a8d4390397caef24d86103560f046fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328f80cd545fdc494a9c066f319d107f') in 0.450554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Bamboo.prefab
+  artifactKey: Guid(5c76967430ff77e46a197ca3f215d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bamboo.prefab using Guid(5c76967430ff77e46a197ca3f215d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eca5faf0a5ffddbb887051f2f8ebf5') in 0.981217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.921763 seconds.
+  path: Assets/Prefabs/AStar manager.prefab
+  artifactKey: Guid(315c867267d042d498022a50cea02f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AStar manager.prefab using Guid(315c867267d042d498022a50cea02f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464b632b5f0999f82f7f44b225b35f96') in 0.006560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(eb7de3dbdbdb00f4ba8dfbb99e1bc030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(eb7de3dbdbdb00f4ba8dfbb99e1bc030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adf6392d8e20af87f44748f868f921b') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Prefabs/ButtonSmoke.prefab
+  artifactKey: Guid(80d469eed5f6af24e843a56e6eabb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ButtonSmoke.prefab using Guid(80d469eed5f6af24e843a56e6eabb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b76f5ee72fd77800ef9558246c947') in 0.058048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Prefabs/Smoke.prefab
+  artifactKey: Guid(a986946fefd740345a4452edecf11230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Smoke.prefab using Guid(a986946fefd740345a4452edecf11230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8239a37fa5dd0e9257a6200f34a6857') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.949776 seconds.
+  path: Assets/Prefabs/Animals/LilAnimals 1.prefab
+  artifactKey: Guid(2a55faf4eec692a46a41b8ba2f7c1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/LilAnimals 1.prefab using Guid(2a55faf4eec692a46a41b8ba2f7c1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23319a75b0166a1c7300fb2b7e4e0c6a') in 0.015498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.616617 seconds.
+  path: Assets/Prefabs/Animals/Snake
+  artifactKey: Guid(5d1e796387b903d4cbf00e02ca2c73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Snake using Guid(5d1e796387b903d4cbf00e02ca2c73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ed8aa27adb3b88bcef69056e8d7d80') in 0.002751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.566381 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Dingo Pup Variant.prefab
+  artifactKey: Guid(771e4d9294c2014479f92b8a7774513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Dingo Pup Variant.prefab using Guid(771e4d9294c2014479f92b8a7774513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa82f40daaa854698d2c611c6746f73') in 0.007417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/Animals/Dingo/InAir 1.fbx
+  artifactKey: Guid(9d4eeeb5f72da624d87afd08359a651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/InAir 1.fbx using Guid(9d4eeeb5f72da624d87afd08359a651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6bf69995de732377275d43ac7f216e') in 1.108554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Idel.fbx
+  artifactKey: Guid(0d9d8bb168342b54e87eea9566a0f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Idel.fbx using Guid(0d9d8bb168342b54e87eea9566a0f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf7c022f16b71c30f112f3b85a36282') in 0.074083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Prefabs/Animals/Dingo/TakeOff 1.fbx
+  artifactKey: Guid(2f24274ff5c50e347bb5ca5b3105ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/TakeOff 1.fbx using Guid(2f24274ff5c50e347bb5ca5b3105ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a90d2cf238158efc2e76e3ac841847') in 0.143868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefabs/Animals/Dingo/TakeOff.fbx
+  artifactKey: Guid(593183af455da0940b0c9f09cd73e5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/TakeOff.fbx using Guid(593183af455da0940b0c9f09cd73e5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6194a7095bd568817e399d33b9c453') in 0.143741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Dingo.prefab
+  artifactKey: Guid(dc5e5181000259c46824847e3aaec73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Dingo.prefab using Guid(dc5e5181000259c46824847e3aaec73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7764b9678abbf4c3b479418dfc29ee') in 0.043310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Walk 1.fbx
+  artifactKey: Guid(76528c910e8a1664e97618db1f677ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Walk 1.fbx using Guid(76528c910e8a1664e97618db1f677ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd637784798491923c01984f627e77a3f') in 0.139477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Prefabs/Animals/Dingo/run.fbx
+  artifactKey: Guid(41ab6163be02f87478f1f6a7cb956a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/run.fbx using Guid(41ab6163be02f87478f1f6a7cb956a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821676e65f326767ebc2c54e5dd12021') in 0.111311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Prefabs/Animals/Dingo/run 1.fbx
+  artifactKey: Guid(0369297e69427e945b79a93a14f4c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/run 1.fbx using Guid(0369297e69427e945b79a93a14f4c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c6d49b644d4c5c65424a583ef2a223') in 0.131510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Walk.fbx
+  artifactKey: Guid(b7aacd50b2a56b046ba9342097a8186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Walk.fbx using Guid(b7aacd50b2a56b046ba9342097a8186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cb84f8d386ca4a27b2f320d1a17f34') in 0.156555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Idel 1.fbx
+  artifactKey: Guid(be733b72dcf1ac0459a5d02aa6ee8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Idel 1.fbx using Guid(be733b72dcf1ac0459a5d02aa6ee8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e24063c6f141a684cac50ff54df18af') in 0.152680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefabs/Animals/Dingo/InAir.fbx
+  artifactKey: Guid(d925a273d10934f4abea4a403a77e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/InAir.fbx using Guid(d925a273d10934f4abea4a403a77e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34c531f3730cade35a937a9e90d0dfd') in 0.166199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.851060 seconds.
+  path: Assets/Prefabs/Animals/Dingo/Dingo Turn.fbx
+  artifactKey: Guid(f94458209f5a095458f49f2843a9c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Dingo/Dingo Turn.fbx using Guid(f94458209f5a095458f49f2843a9c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a3fb39aa7e3bf0152516b8da9e0409') in 0.163992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.543083 seconds.
+  path: Assets/Prefabs/Animals/Snake/Snake.fbx
+  artifactKey: Guid(4b69306660d2c3a42ad74d0cde15e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animals/Snake/Snake.fbx using Guid(4b69306660d2c3a42ad74d0cde15e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cef9322804fe0f4c5693bdf01b0fd0') in 0.039419 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
