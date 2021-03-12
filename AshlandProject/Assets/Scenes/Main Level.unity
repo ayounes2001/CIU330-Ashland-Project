@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.685
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.48559922, g: 0.06612447, b: 0.12397958, a: 0.685}
+  m_IndirectSpecularColor: {r: 0.48695588, g: 0.06746584, b: 0.12533638, a: 0.685}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -546,7 +546,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20866
+  m_Name: pb_Mesh57254
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -79233,7 +79233,6 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
-  m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
@@ -79345,7 +79344,6 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1717269307
