@@ -29,6 +29,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.15484619, y: 0.038877487, z: 0.22170639}
   m_Center: {x: 0.07507324, y: 0.010117531, z: -0.05829811}
+--- !u!95 &2266879036125098895
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7955170063248075198}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cd3bbd92d0537245858cdec53976eae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &924409973768016996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,6 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a19b42fd5c240343bbdc914045e409d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  force: 150
 --- !u!1001 &7108677852143555823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92,13 +112,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: -716319423486125785, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad2501e5a4f69154abae58e6eb0ffff3, type: 2}
     - target: {fileID: 919132149155446097, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
       propertyPath: m_Name
-      value: Snake Flock
+      value: Snake Flock Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b69306660d2c3a42ad74d0cde15e2ed, type: 3}
