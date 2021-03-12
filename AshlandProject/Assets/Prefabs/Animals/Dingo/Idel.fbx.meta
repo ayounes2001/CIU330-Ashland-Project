@@ -62,7 +62,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: DIngo
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -71,7 +71,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -83,14 +83,14 @@ ModelImporter:
       name: Idel
       takeName: Take 001
       internalID: 0
-      firstFrame: 1
+      firstFrame: 10.4
       lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
+      hasAdditiveReferencePose: 1
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
@@ -104,10 +104,212 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Back___Left_leg_knee_Target
+        weight: 1
+      - path: Back___Right_leg_knee_Target
+        weight: 1
+      - path: Back_Left_Leg
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group/Back_Left_leg__toe_Group_2
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group/Back_Left_leg__toe_Group_2/Back_Left_Ball_Ik
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group/Back_Left_leg__toe_Group_2/Back_left_Toe_Ik
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group/Back_Left_leg_Ball_Group
+        weight: 1
+      - path: Back_Left_Leg/Back_left_leg_toe_group/Back_Left_leg_ankel_group/Back_Left_leg_Ball_Group/Back_Left_leg_ankel_Ik
+        weight: 1
+      - path: Back_Right_Leg
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group/Back_right_leg_ball_group
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group/Back_right_leg_ball_group/Back___right_leg_anhel_ik
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group/Back_RIght_leg_toe_group_2
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group/Back_RIght_leg_toe_group_2/Back__RIght_Ball_Ik
+        weight: 1
+      - path: Back_Right_Leg/Back_right_Leg_toe_group/Back_Right_Leg_ankel_Group/Back_RIght_leg_toe_group_2/Back_right_leg_toe_IK
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: DIngo
+        weight: 1
+      - path: Front___Left_leg_knee_Target1
+        weight: 1
+      - path: Front___Right_leg_knee_Target1
+        weight: 1
+      - path: Front_Left_Leg
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group/Front_left_leg__toe_group_2
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group/Front_left_leg__toe_group_2/Front___Left_leg_Ball_Ik
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group/Front_left_leg__toe_group_2/Front___Left_leg_Toe_Ik
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group/Front_left_Leg_ball__group
+        weight: 1
+      - path: Front_Left_Leg/Front_left_leg_toe_group/Front_left_leg_ankel_group/Front_left_Leg_ball__group/Front___Left_leg_ankel_Ik
+        weight: 1
+      - path: Front_Right_Leg
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3/Front_right_leg_ankel_group
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3/Front_right_leg_ankel_group/Front___R_leg_ankel_Ik
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3/Front_right_leg_toe_group2
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3/Front_right_leg_toe_group2/Front___R_leg_Ball_Ik1
+        weight: 1
+      - path: Front_Right_Leg/Front_right_leg_Toe_group/Front_right_leg_ankel_group_3/Front_right_leg_toe_group2/Front___R_leg_Toe_Ik
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: joint18
+        weight: 1
+      - path: joint18/joint11
+        weight: 1
+      - path: joint18/joint11/joint1
+        weight: 1
+      - path: joint18/joint11/joint1/joint2
+        weight: 1
+      - path: joint18/joint11/joint1/joint2/joint3
+        weight: 1
+      - path: joint18/joint11/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint18/joint11/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint18/joint11/joint12
+        weight: 1
+      - path: joint18/joint11/joint12/joint13
+        weight: 1
+      - path: joint18/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint18/joint11/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint18/joint11/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint18/joint11/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: joint18/joint11/joint41
+        weight: 1
+      - path: joint18/joint11/joint41/joint42
+        weight: 1
+      - path: joint18/joint11/joint41/joint42/joint43
+        weight: 1
+      - path: joint18/joint11/joint41/joint42/joint43/joint44
+        weight: 1
+      - path: joint18/joint11/joint41/joint42/joint43/joint44/joint45
+        weight: 1
+      - path: joint18/joint19
+        weight: 1
+      - path: joint18/joint19/joint20
+        weight: 1
+      - path: joint18/joint19/joint20/joint21
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint6
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint6/joint7
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint6/joint7/joint8
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint25/joint26
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint37
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint37/joint38
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint39
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint39/joint40
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint46
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint46/joint47
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint46/joint47/joint48
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint18/joint19/joint20/joint21/joint22/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/group1
+        weight: 1
+      - path: Spine/group1/cluster1Handle
+        weight: 1
+      - path: Spine/Spine1
+        weight: 1
+      - path: Spine/Spine1/group2
+        weight: 1
+      - path: Spine/Spine1/group2/cluster2Handle
+        weight: 1
+      - path: Spine/Spine1/Spine2
+        weight: 1
+      - path: Spine/Spine1/Spine2/group3
+        weight: 1
+      - path: Spine/Spine1/Spine2/group3/cluster3Handle
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3/group4
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3/group4/cluster4Handle
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3/Spine4/group5
+        weight: 1
+      - path: Spine/Spine1/Spine2/Spine3/Spine4/group5/cluster5Handle
+        weight: 1
+      - path: Tail_1
+        weight: 1
+      - path: Tail_1/Tail_2
+        weight: 1
+      - path: Tail_1/Tail_3
+        weight: 1
+      - path: Tail_1/Tail_4
+        weight: 1
+      - path: Tail_1/Tail_5
+        weight: 1
+      - path: Tail_1/Tail_6
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0.96
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -154,7 +356,512 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Idel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DIngo
+      parentName: Idel(Clone)
+      position: {x: -8.1754055, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_Leg
+      parentName: Idel(Clone)
+      position: {x: 9.338923, y: -0.03976485, z: -3.4575133}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_left_leg_toe_group
+      parentName: Back_Left_Leg
+      position: {x: -0, y: 0.20513369, z: 0.71826935}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_leg_ankel_group
+      parentName: Back_left_leg_toe_group
+      position: {x: -0, y: 1.3359922, z: -0.92287254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_leg__toe_Group_2
+      parentName: Back_Left_leg_ankel_group
+      position: {x: -0, y: -1.142197, z: 0.2046032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_Ball_Ik
+      parentName: Back_Left_leg__toe_Group_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 3.8857806e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_left_Toe_Ik
+      parentName: Back_Left_leg__toe_Group_2
+      position: {x: -0, y: -0.19379519, z: 0.71826935}
+      rotation: {x: 3.8857806e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_leg_Ball_Group
+      parentName: Back_Left_leg_ankel_group
+      position: {x: -0, y: -1.142197, z: 0.2046032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Left_leg_ankel_Ik
+      parentName: Back_Left_leg_Ball_Group
+      position: {x: -0, y: 1.142197, z: -0.2046032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Right_Leg
+      parentName: Idel(Clone)
+      position: {x: 10.6442, y: -0.03976488, z: -3.45751}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_right_Leg_toe_group
+      parentName: Back_Right_Leg
+      position: {x: -0, y: 0.20513389, z: 0.71827006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_Right_Leg_ankel_Group
+      parentName: Back_right_Leg_toe_group
+      position: {x: -0, y: 1.335991, z: -0.9228802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_right_leg_ball_group
+      parentName: Back_Right_Leg_ankel_Group
+      position: {x: -0, y: -1.142196, z: 0.20461011}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back___right_leg_anhel_ik
+      parentName: Back_right_leg_ball_group
+      position: {x: -0, y: 1.142196, z: -0.20461011}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_RIght_leg_toe_group_2
+      parentName: Back_Right_Leg_ankel_Group
+      position: {x: -0, y: -1.142196, z: 0.20461011}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back__RIght_Ball_Ik
+      parentName: Back_RIght_leg_toe_group_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: 8.066263e-17, z: 7.6285594e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back_right_leg_toe_IK
+      parentName: Back_RIght_leg_toe_group_2
+      position: {x: -0, y: -0.193795, z: 0.71827006}
+      rotation: {x: 1, y: 8.066263e-17, z: 7.6285594e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back___Left_leg_knee_Target
+      parentName: Idel(Clone)
+      position: {x: 9.338923, y: 1.501361, z: -2.8285367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Back___Right_leg_knee_Target
+      parentName: Idel(Clone)
+      position: {x: 10.6442, y: 1.50136, z: -2.8285403}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___Right_leg_knee_Target1
+      parentName: Idel(Clone)
+      position: {x: 10.6442, y: 2.92467, z: -0.81580895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___Left_leg_knee_Target1
+      parentName: Idel(Clone)
+      position: {x: 9.338923, y: 2.924667, z: -0.81580895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Left_Leg
+      parentName: Idel(Clone)
+      position: {x: 9.338923, y: 0.15304756, z: 0.29014197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_left_leg_toe_group
+      parentName: Front_Left_Leg
+      position: {x: -0, y: 0.23713657, z: 0.71989787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_left_leg_ankel_group
+      parentName: Front_left_leg_toe_group
+      position: {x: -0, y: 0.6550857, z: -0.94239426}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_left_Leg_ball__group
+      parentName: Front_left_leg_ankel_group
+      position: {x: -0, y: -0.4932934, z: 0.22249645}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___Left_leg_ankel_Ik
+      parentName: Front_left_Leg_ball__group
+      position: {x: -0, y: 0.4932934, z: -0.22249645}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_left_leg__toe_group_2
+      parentName: Front_left_leg_ankel_group
+      position: {x: -0, y: -0.4932934, z: 0.22249645}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___Left_leg_Ball_Ik
+      parentName: Front_left_leg__toe_group_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.7755576e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___Left_leg_Toe_Ik
+      parentName: Front_left_leg__toe_group_2
+      position: {x: -0, y: -0.16179231, z: 0.71989787}
+      rotation: {x: -2.7755576e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Right_Leg
+      parentName: Idel(Clone)
+      position: {x: 10.6442, y: 0.15304714, z: 0.290142}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_right_leg_Toe_group
+      parentName: Front_Right_Leg
+      position: {x: -0, y: 0.23713684, z: 0.71989805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_right_leg_ankel_group_3
+      parentName: Front_right_leg_Toe_group
+      position: {x: -0, y: 0.655086, z: -0.94239455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_right_leg_ankel_group
+      parentName: Front_right_leg_ankel_group_3
+      position: {x: -0, y: -0.49329394, z: 0.22249651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___R_leg_ankel_Ik
+      parentName: Front_right_leg_ankel_group
+      position: {x: -0, y: 0.49329394, z: -0.22249651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_right_leg_toe_group2
+      parentName: Front_right_leg_ankel_group_3
+      position: {x: -0, y: -0.49329394, z: 0.22249651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___R_leg_Ball_Ik1
+      parentName: Front_right_leg_toe_group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -7.562137e-17, z: 0.000000012865612, w: 2.8327693e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front___R_leg_Toe_Ik
+      parentName: Front_right_leg_toe_group2
+      position: {x: -0, y: -0.16179204, z: 0.71989805}
+      rotation: {x: 1, y: -8.023172e-17, z: -2.0750728e-16, w: 2.8327693e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_1
+      parentName: Idel(Clone)
+      position: {x: 9.991537, y: 4.222919, z: -3.9816186}
+      rotation: {x: -0.42261827, y: 0, z: -0, w: 0.9063078}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_6
+      parentName: Tail_1
+      position: {x: -0, y: -1.4536333, z: -2.5033166}
+      rotation: {x: 0.00000000772858, y: -0.30727524, z: 0.25783455, w: 0.9160258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_5
+      parentName: Tail_1
+      position: {x: -0, y: -1.0852381, z: -2.075063}
+      rotation: {x: 0.00000000772858, y: -0.30727524, z: 0.25783455, w: 0.9160258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_4
+      parentName: Tail_1
+      position: {x: -0, y: -0.7171784, z: -1.6148615}
+      rotation: {x: 0.00000000772858, y: -0.30727524, z: 0.25783455, w: 0.9160258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_3
+      parentName: Tail_1
+      position: {x: -0, y: -0.3612026, z: -1.1852345}
+      rotation: {x: 0.00000000772858, y: -0.30727524, z: 0.25783455, w: 0.9160258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_2
+      parentName: Tail_1
+      position: {x: -0, y: 0.03651783, z: -0.61420834}
+      rotation: {x: 0.00000000772858, y: -0.30727524, z: 0.25783455, w: 0.9160258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Idel(Clone)
+      position: {x: 9.991537, y: 4.016199, z: -3.6583054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group1
+      parentName: Spine
+      position: {x: -0.2499996, y: 0.24995881, z: 0.25000003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cluster1Handle
+      parentName: group1
+      position: {x: 0.25, y: -0.25, z: -0.25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: Spine
+      position: {x: -0, y: 0.23616064, z: 0.9274018}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group2
+      parentName: Spine1
+      position: {x: -0.2499996, y: 0.2548344, z: 0.228982}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cluster2Handle
+      parentName: group2
+      position: {x: 0.25, y: -0.25, z: -0.25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -0, y: 0.08096361, z: 0.9421222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group3
+      parentName: Spine2
+      position: {x: -0.2499996, y: 0.40789267, z: 0.53673255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cluster3Handle
+      parentName: group3
+      position: {x: 0.25, y: -0.25, z: -0.25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine3
+      parentName: Spine2
+      position: {x: -0, y: 0.11040497, z: 1.089329}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group4
+      parentName: Spine3
+      position: {x: -0.2499996, y: 0.31234875, z: 0.33094397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cluster4Handle
+      parentName: group4
+      position: {x: 0.25, y: -0.25, z: -0.25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine4
+      parentName: Spine3
+      position: {x: -0, y: -0.17477165, z: 0.6926642}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group5
+      parentName: Spine4
+      position: {x: -0.2499996, y: 0.29363862, z: 0.25275585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cluster5Handle
+      parentName: group5
+      position: {x: 0.25, y: -0.25, z: -0.25}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: Idel(Clone)
+      position: {x: 9.991537, y: 4.315602, z: -0.013617666}
+      rotation: {x: 0.073708475, y: 0.70325464, z: 0.073708475, w: 0.70325464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve1
+      parentName: Idel(Clone)
+      position: {x: 9.816134, y: 0.36563143, z: -1.222582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint18
+      parentName: Idel(Clone)
+      position: {x: 0.31045818, y: 2.8641338, z: -0.34806228}
+      rotation: {x: -0.5284133, y: 0.45530796, z: -0.506095, w: 0.5072888}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: joint19
+      parentName: joint18
+      position: {x: -0.9686598, y: -1.110223e-16, z: 0}
+      rotation: {x: -0, y: -0, z: 0.030701686, w: 0.9995286}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: joint20
+      parentName: joint19
+      position: {x: -0.94559485, y: -3.8857806e-16, z: 0}
+      rotation: {x: -0.000000002808552, y: 0.000000029902644, z: 0.046752635, w: 0.9989065}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: joint21
+      parentName: joint20
+      position: {x: -1.0949095, y: 3.066991e-15, z: 0}
+      rotation: {x: 0.0000000016068007, y: 0.000000029688263, z: 0.023314942, w: 0.99972826}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: joint22
+      parentName: joint21
+      position: {x: -0.6939356, y: 5.689893e-16, z: -3.5527137e-15}
+      rotation: {x: 0.000000008749435, y: -0.000000059076548, z: -0.18434852, w: 0.9828609}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: joint23
+      parentName: joint22
+      position: {x: -1.1044297, y: -9.7144515e-17, z: 0}
+      rotation: {x: -0.0000000062306986, y: 0.000000029380857, z: 0.027487006, w: 0.99962217}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: joint24
+      parentName: joint23
+      position: {x: -1.344669, y: 7.6327833e-16, z: 0}
+      rotation: {x: 0.0000000011763638, y: -0.000000028948799, z: 0.3815925, w: 0.9243307}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: joint25
+      parentName: joint24
+      position: {x: -0.51835656, y: 5.2735594e-16, z: 0}
+      rotation: {x: -0.000000019432179, y: -0.000000055957337, z: 0.049558718, w: 0.9987713}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: joint26
+      parentName: joint25
+      position: {x: -1.0180854, y: 1.3600232e-15, z: 0}
+      rotation: {x: -0.1769327, y: -0.6846128, z: -0.17693274, w: 0.68461305}
+      scale: {x: 1, y: 1.0000004, z: 0.9999997}
+    - name: joint37
+      parentName: joint24
+      position: {x: 0.07460291, y: 0.31029782, z: -0.32682762}
+      rotation: {x: 0.31839973, y: -0.73090076, z: -0.44033074, w: 0.4129342}
+      scale: {x: 1, y: 0.99999994, z: 0.9999996}
+    - name: joint38
+      parentName: joint37
+      position: {x: -0.4495472, y: 2.477402e-17, z: 4.5970172e-17}
+      rotation: {x: -0.07888237, y: 0.11186798, z: 0.57085276, w: 0.8095618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint39
+      parentName: joint24
+      position: {x: 0.07459932, y: 0.31030205, z: 0.3268625}
+      rotation: {x: -0.39949876, y: 0.7588728, z: -0.40005246, w: 0.32321945}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: joint40
+      parentName: joint39
+      position: {x: -0.4486292, y: 1.2791959e-15, z: -8.526166e-16}
+      rotation: {x: 0.18754216, y: 0.15412492, z: -0.74947166, w: 0.6159268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: joint22
+      position: {x: -0.2394767, y: -0.3179067, z: -0.6526141}
+      rotation: {x: 0.3956019, y: 0.6159212, z: 0.56446326, w: 0.38147262}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999994}
+    - name: joint7
+      parentName: joint6
+      position: {x: -7.395571e-31, y: -1.6551113, z: -0.010319822}
+      rotation: {x: -0.067055486, y: -0, z: -0.000000007450578, w: 0.99774927}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: joint8
+      parentName: joint7
+      position: {x: -5.2806095e-17, y: -1.879397, z: -0.26570544}
+      rotation: {x: -0.026222307, y: -0.9977698, z: 0.061373964, w: 0.0011358017}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: joint9
+      parentName: joint8
+      position: {x: 1.6735298e-16, y: -0.49329343, z: 0.22249645}
+      rotation: {x: 0.0014417986, y: -2.0247067e-10, z: 0.000000007447847, w: 0.999999}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: joint10
+      parentName: joint9
+      position: {x: -0.0000000087873975, y: -0.1617923, z: 0.71989787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint46
+      parentName: joint22
+      position: {x: -0.23947762, y: -0.31790522, z: 0.6526625}
+      rotation: {x: -0.5936095, y: 0.32386762, z: 0.3571744, w: -0.6443322}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999946}
+    - name: joint47
+      parentName: joint46
+      position: {x: -0, y: 1.65511, z: 0.01032}
+      rotation: {x: -0.067055285, y: -0.000000007450578, z: -0, w: 0.9977493}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: joint48
+      parentName: joint47
+      position: {x: -1.7763568e-15, y: 1.8794, z: 0.2657055}
+      rotation: {x: -0.04826875, y: -0.99771166, z: 0.04729821, w: 0.0020901824}
+      scale: {x: 1, y: 1.0000008, z: 1.0000004}
+    - name: joint49
+      parentName: joint48
+      position: {x: -0, y: 0.493294, z: -0.2224965}
+      rotation: {x: 0.0014418359, y: 0.000000037490096, z: -0.000000006619456, w: 0.99999905}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: joint50
+      parentName: joint49
+      position: {x: -0, y: 0.161792, z: -0.719898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint18
+      position: {x: 0.31891817, y: 0.062266152, z: 0}
+      rotation: {x: -0.2833347, y: -0.9590211, z: -0, w: 0}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: joint12
+      parentName: joint11
+      position: {x: -0.61529255, y: -3.1164494e-16, z: 2.4651903e-32}
+      rotation: {x: -0.0051588016, y: 0.013258865, z: -0.2423309, w: 0.9700894}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: joint13
+      parentName: joint12
+      position: {x: -0.6958825, y: -7.910339e-16, z: 0}
+      rotation: {x: 0.000000041650793, y: 0.00000004326502, z: 0.04176134, w: 0.9991276}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: joint14
+      parentName: joint13
+      position: {x: -0.55794114, y: -4.575333e-16, z: 0}
+      rotation: {x: -0.000008310259, y: 0.0009341943, z: -0.03844746, w: 0.9992602}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: joint15
+      parentName: joint14
+      position: {x: -0.5892821, y: 2.1753432e-15, z: 0}
+      rotation: {x: 0.9998399, y: 0.017896181, z: 0.000000018043965, w: 0.000000019205125}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000002}
+    - name: joint16
+      parentName: joint15
+      position: {x: -0.5649037, y: -8.430756e-16, z: -1.0303725e-31}
+      rotation: {x: -0.0009851621, y: 0.0149936145, z: -0.56945115, w: 0.8218879}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: joint17
+      parentName: joint16
+      position: {x: -0.4851692, y: -5.983495e-15, z: -3.0460045e-19}
+      rotation: {x: -0.49821115, y: -0.5017825, z: -0.49821118, w: 0.5017825}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: joint1
+      parentName: joint11
+      position: {x: 0.13542733, y: -0.6296402, z: 0.6526141}
+      rotation: {x: 0.5717813, y: 0.3474482, z: -0.6727873, w: 0.31575826}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: joint2
+      parentName: joint1
+      position: {x: 2.9582284e-31, y: -1.4716349, z: 0.21152736}
+      rotation: {x: -0.10367337, y: -0, z: 0.000000014901159, w: 0.9946114}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: joint3
+      parentName: joint2
+      position: {x: 4.3469066e-16, y: -0.91567874, z: -0.44254154}
+      rotation: {x: -0.53869885, y: -0.00009264331, z: 0.074854694, w: 0.83916646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: joint3
+      position: {x: 5.2124724e-16, y: -1.142197, z: 0.20460312}
+      rotation: {x: -0, y: -0, z: 2.2898347e-16, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: joint5
+      parentName: joint4
+      position: {x: 3.004707e-16, y: -0.1937952, z: 0.7182695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint41
+      parentName: joint11
+      position: {x: 0.13542558, y: -0.62964517, z: -0.6526625}
+      rotation: {x: 0.63769996, y: -0.3055137, z: -0.6377002, w: -0.30551383}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: joint42
+      parentName: joint41
+      position: {x: 1.7763568e-15, y: 1.47163, z: -0.21152}
+      rotation: {x: -0.103675164, y: 0.000000022351736, z: -0, w: 0.9946112}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: joint43
+      parentName: joint42
+      position: {x: -0, y: 0.91568, z: 0.44254}
+      rotation: {x: 0.06368077, y: 0.00000019102386, z: 0.000000036324714, w: 0.99797034}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: joint44
+      parentName: joint43
+      position: {x: -0, y: 1.142196, z: -0.20461}
+      rotation: {x: -0, y: -0, z: 8.881783e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint45
+      parentName: joint44
+      position: {x: -0, y: 0.193795, z: -0.71827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -165,7 +872,7 @@ ModelImporter:
     globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1

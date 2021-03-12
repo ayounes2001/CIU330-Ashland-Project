@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NewJump : MonoBehaviour
 {
+    public PlayerAnimations pLayerAnimate;
     public Rigidbody rb;
-    public Animator playerAnimator;
+   
    public bool isGrounded;
     public float jumpForce;
 
@@ -24,20 +22,21 @@ public class NewJump : MonoBehaviour
     void Update()
     {
         Jump();
+        if (rb.velocity == Vector3.zero) { pLayerAnimate.CurrentAnimation = AnimationStates.idle; }
         Debug.DrawRay(transform.position, Vector3.down, Color.red);
     }
     void Jump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
-
+            pLayerAnimate.CurrentAnimation = AnimationStates.jumping;
             if (!Physics.Raycast(transform.position, Vector3.down, distToGround + 0.1f))
             {
                
                 rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
                 isGrounded = false;
                 //changing to jump animation
-                playerAnimator.SetInteger("CurrentAnimation", 2);
+                
                 Debug.DrawLine(transform.position, -Vector3.up);
             }
             else
@@ -47,17 +46,14 @@ public class NewJump : MonoBehaviour
            
         }
         //checking if player is falling and chaning animation
-        if (rb.velocity.y < -1) { playerAnimator.SetInteger("CurrentAnimation", 4); }
+        if (rb.velocity.y < 0 && isGrounded == false || rb.velocity.y > 0 && isGrounded == false) { pLayerAnimate.CurrentAnimation = AnimationStates.inair; }       
     }
 
     private void OnCollisionEnter(Collision other)
-    {       
-
-       
+    {              
             isGrounded = true;
-      
            
-   }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(transform.position, distToGround);
